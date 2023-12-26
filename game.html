@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="stylesheet" href="src/style/index.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <h3 id="welcomeMessage">Welcome, <span id="username">Player</span>!</h3>
+      </header>
+
+      <div id="game">
+          <button id="startButton">Start</button>
+          <div class="score">Score: <span id="score">0</span></div>
+          <div class="grid"></div>
+          <button id="endButton">End</button>
+      </div>
+
+      <div class="grid"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
